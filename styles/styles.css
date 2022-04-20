@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.heading {
+  text-align: center;
+  animation: fadeIn 1s infinite alternate;
+}
